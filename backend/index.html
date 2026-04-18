@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Face Emotion Detector</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 AI Face Emotion Detector</h1>
+
+<div class="camera-box">
+<video id="video" autoplay muted></video>
+<canvas id="overlay"></canvas>
+</div>
+
+<div class="info">
+
+<h2>Main Emotion: <span id="emotion">Loading...</span></h2>
+<h3>Age: <span id="age">--</span></h3>
+<h3>Gender: <span id="gender">--</span></h3>
+
+<button onclick="takeShot()">📸 Screenshot</button>
+
+</div>
+
+<div class="bars" id="bars"></div>
+
+<canvas id="chart"></canvas>
+
+</div>
+
+</body>
+</html>
