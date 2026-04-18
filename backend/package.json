@@ -1,0 +1,12 @@
+{
+  "name": "advanced-face-emotion-detector",
+  "version": "1.0.0",
+  "description": "Advanced AI Face Emotion Detector",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
